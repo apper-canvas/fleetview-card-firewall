@@ -10,7 +10,11 @@ import SettingsPage from '@/components/pages/SettingsPage';
 function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-background text-white">
+      <div className="min-h-screen bg-gradient-to-br from-background via-background-secondary to-background text-white relative overflow-hidden">
+        {/* Background Pattern */}
+        <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-transparent via-transparent to-primary-900/5"></div>
+        
         <Layout>
           <Routes>
             <Route path="/" element={<LiveTrackingPage />} />
@@ -20,17 +24,21 @@ function App() {
             <Route path="/settings" element={<SettingsPage />} />
           </Routes>
         </Layout>
-        <ToastContainer
+<ToastContainer
           position="top-right"
-          autoClose={3000}
+          autoClose={4000}
           hideProgressBar={false}
-          newestOnTop={false}
+          newestOnTop={true}
           closeOnClick
           rtl={false}
           pauseOnFocusLoss
           draggable
           pauseOnHover
           theme="dark"
+          className="toast-container"
+          toastClassName="toast-custom"
+          bodyClassName="toast-body"
+          progressClassName="toast-progress"
           style={{ zIndex: 9999 }}
         />
       </div>
