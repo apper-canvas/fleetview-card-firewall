@@ -107,8 +107,17 @@ const LiveTrackingPage = () => {
         </div>
       </div>
 
-      {/* Main Content */}
+{/* Main Content */}
       <div className="flex-1 flex overflow-hidden">
+        {/* Vehicle List Sidebar */}
+        <div className="w-80 lg:w-96">
+          <VehicleList
+            selectedVehicle={selectedVehicle}
+            onVehicleSelect={setSelectedVehicle}
+            onTaskDrop={handleTaskDrop}
+          />
+        </div>
+
         {/* Map Area */}
         <div className="flex-1 p-4">
           <motion.div
@@ -122,15 +131,6 @@ const LiveTrackingPage = () => {
               onVehicleSelect={setSelectedVehicle}
             />
           </motion.div>
-        </div>
-
-        {/* Vehicle List Sidebar */}
-        <div className="w-80 lg:w-96">
-          <VehicleList
-            selectedVehicle={selectedVehicle}
-            onVehicleSelect={setSelectedVehicle}
-            onTaskDrop={handleTaskDrop}
-          />
         </div>
       </div>
     </div>
