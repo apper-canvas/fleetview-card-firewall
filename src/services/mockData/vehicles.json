@@ -1,0 +1,130 @@
+[
+  {
+    "Id": 1,
+    "driverName": "John Mitchell",
+    "plateNumber": "FLT-001",
+    "status": "online",
+    "location": {
+      "lat": 40.7589,
+      "lng": -73.9851,
+      "address": "Times Square, New York"
+    },
+    "speed": 45,
+    "heading": 180,
+    "lastUpdate": "2024-01-15T10:30:00Z",
+    "todayDeliveries": 8,
+    "todayDistance": 124.5
+  },
+  {
+    "Id": 2,
+    "driverName": "Sarah Chen",
+    "plateNumber": "FLT-002",
+    "status": "idle",
+    "location": {
+      "lat": 40.7505,
+      "lng": -73.9934,
+      "address": "Brooklyn Bridge, New York"
+    },
+    "speed": 0,
+    "heading": 90,
+    "lastUpdate": "2024-01-15T10:25:00Z",
+    "todayDeliveries": 6,
+    "todayDistance": 89.2
+  },
+  {
+    "Id": 3,
+    "driverName": "Mike Rodriguez",
+    "plateNumber": "FLT-003",
+    "status": "online",
+    "location": {
+      "lat": 40.7282,
+      "lng": -74.0776,
+      "address": "Battery Park, New York"
+    },
+    "speed": 32,
+    "heading": 45,
+    "lastUpdate": "2024-01-15T10:32:00Z",
+    "todayDeliveries": 12,
+    "todayDistance": 156.8
+  },
+  {
+    "Id": 4,
+    "driverName": "Emma Thompson",
+    "plateNumber": "FLT-004",
+    "status": "offline",
+    "location": {
+      "lat": 40.7614,
+      "lng": -73.9776,
+      "address": "Central Park, New York"
+    },
+    "speed": 0,
+    "heading": 0,
+    "lastUpdate": "2024-01-15T09:45:00Z",
+    "todayDeliveries": 4,
+    "todayDistance": 67.3
+  },
+  {
+    "Id": 5,
+    "driverName": "David Kim",
+    "plateNumber": "FLT-005",
+    "status": "online",
+    "location": {
+      "lat": 40.7410,
+      "lng": -74.0014,
+      "address": "SoHo, New York"
+    },
+    "speed": 28,
+    "heading": 270,
+    "lastUpdate": "2024-01-15T10:28:00Z",
+    "todayDeliveries": 7,
+    "todayDistance": 98.7
+  },
+  {
+    "Id": 6,
+    "driverName": "Lisa Wang",
+    "plateNumber": "FLT-006",
+    "status": "idle",
+    "location": {
+      "lat": 40.7831,
+      "lng": -73.9712,
+      "address": "Upper East Side, New York"
+    },
+    "speed": 0,
+    "heading": 135,
+    "lastUpdate": "2024-01-15T10:20:00Z",
+    "todayDeliveries": 5,
+    "todayDistance": 78.9
+  },
+  {
+    "Id": 7,
+    "driverName": "Carlos Mendez",
+    "plateNumber": "FLT-007",
+    "status": "online",
+    "location": {
+      "lat": 40.7178,
+      "lng": -74.0431,
+      "address": "Tribeca, New York"
+    },
+    "speed": 38,
+    "heading": 315,
+    "lastUpdate": "2024-01-15T10:33:00Z",
+    "todayDeliveries": 9,
+    "todayDistance": 134.2
+  },
+  {
+    "Id": 8,
+    "driverName": "Jennifer Lee",
+    "plateNumber": "FLT-008",
+    "status": "online",
+    "location": {
+      "lat": 40.7505,
+      "lng": -73.9864,
+      "address": "Chinatown, New York"
+    },
+    "speed": 25,
+    "heading": 225,
+    "lastUpdate": "2024-01-15T10:31:00Z",
+    "todayDeliveries": 10,
+    "todayDistance": 142.6
+  }
+]

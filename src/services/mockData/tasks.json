@@ -1,0 +1,154 @@
+[
+  {
+    "Id": 1,
+    "type": "Standard Delivery",
+    "priority": "high",
+    "pickupLocation": {
+      "lat": 40.7589,
+      "lng": -73.9851,
+      "address": "123 Broadway, New York, NY 10001"
+    },
+    "deliveryLocation": {
+      "lat": 40.7505,
+      "lng": -73.9934,
+      "address": "456 Wall Street, New York, NY 10005"
+    },
+    "assignedVehicle": null,
+    "status": "pending",
+    "estimatedDuration": 45,
+    "createdAt": "2024-01-15T09:00:00Z"
+  },
+  {
+    "Id": 2,
+    "type": "Express Delivery",
+    "priority": "high",
+    "pickupLocation": {
+      "lat": 40.7614,
+      "lng": -73.9776,
+      "address": "789 5th Avenue, New York, NY 10022"
+    },
+    "deliveryLocation": {
+      "lat": 40.7282,
+      "lng": -74.0776,
+      "address": "321 Greenwich Street, New York, NY 10013"
+    },
+    "assignedVehicle": 1,
+    "status": "assigned",
+    "estimatedDuration": 30,
+    "createdAt": "2024-01-15T09:15:00Z"
+  },
+  {
+    "Id": 3,
+    "type": "Bulk Delivery",
+    "priority": "medium",
+    "pickupLocation": {
+      "lat": 40.7410,
+      "lng": -74.0014,
+      "address": "654 Spring Street, New York, NY 10012"
+    },
+    "deliveryLocation": {
+      "lat": 40.7831,
+      "lng": -73.9712,
+      "address": "987 Madison Avenue, New York, NY 10075"
+    },
+    "assignedVehicle": 3,
+    "status": "completed",
+    "estimatedDuration": 60,
+    "createdAt": "2024-01-15T08:30:00Z"
+  },
+  {
+    "Id": 4,
+    "type": "Standard Delivery",
+    "priority": "low",
+    "pickupLocation": {
+      "lat": 40.7178,
+      "lng": -74.0431,
+      "address": "147 Chambers Street, New York, NY 10007"
+    },
+    "deliveryLocation": {
+      "lat": 40.7505,
+      "lng": -73.9864,
+      "address": "258 Canal Street, New York, NY 10013"
+    },
+    "assignedVehicle": null,
+    "status": "pending",
+    "estimatedDuration": 35,
+    "createdAt": "2024-01-15T09:45:00Z"
+  },
+  {
+    "Id": 5,
+    "type": "Express Delivery",
+    "priority": "high",
+    "pickupLocation": {
+      "lat": 40.7505,
+      "lng": -73.9934,
+      "address": "369 Pearl Street, New York, NY 10038"
+    },
+    "deliveryLocation": {
+      "lat": 40.7589,
+      "lng": -73.9851,
+      "address": "741 Broadway, New York, NY 10003"
+    },
+    "assignedVehicle": 5,
+    "status": "assigned",
+    "estimatedDuration": 25,
+    "createdAt": "2024-01-15T10:00:00Z"
+  },
+  {
+    "Id": 6,
+    "type": "Standard Delivery",
+    "priority": "medium",
+    "pickupLocation": {
+      "lat": 40.7831,
+      "lng": -73.9712,
+      "address": "852 Park Avenue, New York, NY 10075"
+    },
+    "deliveryLocation": {
+      "lat": 40.7614,
+      "lng": -73.9776,
+      "address": "963 Lexington Avenue, New York, NY 10021"
+    },
+    "assignedVehicle": null,
+    "status": "pending",
+    "estimatedDuration": 40,
+    "createdAt": "2024-01-15T10:15:00Z"
+  },
+  {
+    "Id": 7,
+    "type": "Bulk Delivery",
+    "priority": "low",
+    "pickupLocation": {
+      "lat": 40.7282,
+      "lng": -74.0776,
+      "address": "159 West Street, New York, NY 10006"
+    },
+    "deliveryLocation": {
+      "lat": 40.7410,
+      "lng": -74.0014,
+      "address": "357 Hudson Street, New York, NY 10014"
+    },
+    "assignedVehicle": 7,
+    "status": "completed",
+    "estimatedDuration": 50,
+    "createdAt": "2024-01-15T08:00:00Z"
+  },
+  {
+    "Id": 8,
+    "type": "Express Delivery",
+    "priority": "medium",
+    "pickupLocation": {
+      "lat": 40.7505,
+      "lng": -73.9864,
+      "address": "468 Bowery, New York, NY 10013"
+    },
+    "deliveryLocation": {
+      "lat": 40.7178,
+      "lng": -74.0431,
+      "address": "579 Greenwich Street, New York, NY 10014"
+    },
+    "assignedVehicle": null,
+    "status": "pending",
+    "estimatedDuration": 30,
+    "createdAt": "2024-01-15T10:30:00Z"
+  }
+]
